@@ -23,16 +23,17 @@ const Nav = () => {
                 <div className="hidden sm:flex">
                     <ul className="flex space-x-10">
                         <Link href="/">
-                            <li className="hover:text-blue-300 text-xl transition duration-200">Home</li>
+                            <li className="hover:text-yellow-400 text-xl transition duration-200">Home</li>
                         </Link>
-                        <Link href="/about">
-                            <li className="hover:text-blue-300 text-xl transition duration-200">About</li>
+                        <Link href="#projects">
+                            <li className="hover:text-yellow-400 text-xl transition duration-200">Project</li>
                         </Link>
-                        <Link href="/services">
-                            <li className="hover:text-blue-300 text-xl transition duration-200">Services</li>
+                        <Link href="#about">
+                            <li className="hover:text-yellow-400 text-xl transition duration-200">About</li>
                         </Link>
-                        <Link href="/contact">
-                            <li className="hover:text-blue-300 text-xl transition duration-200">Contact</li>
+                        
+                        <Link href="#contact">
+                            <li className="hover:text-yellow-400 text-xl transition duration-200">Contact</li>
                         </Link>
                     </ul>
                 </div>
@@ -56,16 +57,16 @@ const Nav = () => {
                 <div className="flex-col py-4">
                     <ul>
                         <Link href="/">
-                            <li className="py-4 cursor-pointer hover:text-blue-700 transition duration-200">Home</li>
+                            <li className="py-4 cursor-pointer hover:text-yellow-400 transition duration-200">Home</li>
                         </Link>
                         <Link href="/about">
-                            <li className="py-4 cursor-pointer hover:text-blue-700 transition duration-200">About</li>
+                            <li className="py-4 cursor-pointer hover:text-yellow-400 transition duration-200">About</li>
                         </Link>
-                        <Link href="/services">
-                            <li className="py-4 cursor-pointer hover:text-blue-700 transition duration-200">Services</li>
+                        <Link href="/project">
+                            <li className="py-4 cursor-pointer hover:text-yellow-400 transition duration-200">Project</li>
                         </Link>
                         <Link href="/contact">
-                            <li className="py-4 cursor-pointer hover:text-blue-700 transition duration-200">Contact</li>
+                            <li className="py-4 cursor-pointer hover:text-yellow-400 transition duration-200">Contact</li>
                         </Link>
                     </ul>
                 </div>
